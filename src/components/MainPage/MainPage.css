@@ -56,7 +56,7 @@
 
 .main-page__button:hover {
     /* filter: drop-shadow(0 0 4px var(--white)); */
-    box-shadow: 0 0 6                                  px white;
+    box-shadow: 0 0 6px white;
 }
 
 .main-page__button.--left {
