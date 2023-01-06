@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import UserInput from './components/UserInput'
 import './App.css'
+import MainPage from './components/MainPage'
 
 const App = () => {
 
   return (
     <div className="app">
-      
+      <MainPage></MainPage>
     </div>
   )
 }
