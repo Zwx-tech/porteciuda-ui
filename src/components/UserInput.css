@@ -1,0 +1,38 @@
+.user-input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.text-area__wrapper{
+    width: 80vw;
+    height: 70vh;
+    background-color: rgba(81, 81, 81, 0.4);
+    border-radius: 69px;
+    display: grid;
+    place-items: center;
+}
+
+.text-area__wrapper>textarea{
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    color: #fff;
+}
+.--blured{
+    filter: blue(5px) brightness(0.1);
+}
+user-input__button{
+    height: var(--main-page__button-height);
+    width: var(--main-page__button-width);
+    border: 5px solid var(--white);
+    border-radius: calc(var(--main-page__button-height) / 2);
+    font-size: calc(var(--main-page__button-height) / 3.5);
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}

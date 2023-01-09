@@ -11,7 +11,7 @@ const MainPage = () => {
   const [menuState, setMenuState] = useState(false);
 
   return (
-    <div className="main-page">
+    <div className="main-page --blured">
       <img src={dnaImage} alt="" className="main-page__bg --blurred" />
       <img src={dnaImage} alt="" className="main-page__bg" />
       <img src={dnaText} alt="" className="main-page__text" />
@@ -25,4 +25,4 @@ const MainPage = () => {
   )
 }
 
-export default MainPag
+export default MainPage;
